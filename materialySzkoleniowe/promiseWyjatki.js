@@ -80,7 +80,7 @@ function resolveAfter2Seconds() {
 	return new Promise((resolve) => {
 		setTimeout(() => {
 			resolve('resolved');
-		}, 10000);
+		}, 2000);
 	}).catch(err => console.log(err))
 }
 

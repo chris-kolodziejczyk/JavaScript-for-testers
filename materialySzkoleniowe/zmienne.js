@@ -4,7 +4,7 @@
 
 // NOTE: Słowa kluczowe dla zmiennych
 
-// var
+// var (Nie używamy ze względu na wprowadzenie let i const)
 // let
 // const
 

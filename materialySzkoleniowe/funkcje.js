@@ -63,9 +63,5 @@ let b = policz("anonim")
 
 console.log(b())
 
-
-
-
 // console.log(policz('pomnoz', 5, 10))
 // console.log(policz('podziel', 5, 10))
-
