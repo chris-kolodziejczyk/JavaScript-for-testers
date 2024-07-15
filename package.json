@@ -12,6 +12,6 @@
   "author": "Krzysztof Kołodziejczyk",
   "license": "MIT",
   "devDependencies": {
-    "nightwatch": "^3.1.2"
+    "nightwatch": "^3.6.4"
   }
 }
