@@ -14,6 +14,8 @@ let promise2 = new Promise((resolve, reject) => {
 	});
 });
 
+
+
 'Krzysiek "Jest trenerem"' // ok
 `Krzysiek` // ok
 "Krzysiek" // error
@@ -84,15 +86,22 @@ function resolveAfter2Seconds() {
 	}).catch(err => console.log(err))
 }
 
-async function asyncCall() {
+async function asyncCall(callback) {
 	console.log('calling');
 try {
 	const result = await resolveAfter2Seconds();
 	console.log(result);
+
+
+	callback(result)
+
 } catch (ex) {
 	console.log(ex)
 }
 	// Expected output: "resolved"
 }
 
-asyncCall();
+asyncCall((result) => {
+
+	console.log(result)
+});

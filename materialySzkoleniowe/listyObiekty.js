@@ -9,6 +9,10 @@ let osoby = [
 	'Marcin J',
 ];
 
+osoby[0] = 'Krzysztof Kołodziejczyk'
+delete osoby[0]
+
+
 // console.log(osoby)
 
 // *****************************************
@@ -90,7 +94,7 @@ array
 Tablica na której filter został wywołany
 */
 
-// let ages = [32, 33, 16, , 45, 40]
+// let ages = [32, 33, 16, 45, 40]
 
 // function checkAdult(age) {
 
