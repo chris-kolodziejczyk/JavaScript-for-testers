@@ -30,6 +30,7 @@
     let lista = []  
 */
 
+
 typeof null        // "object"
 typeof undefined   // "undefined"
 null === undefined // false
@@ -52,6 +53,8 @@ isNaN(1 + undefined) // true
 // console.log(3 + undefined) // NaN
 // console.log(3 + false)     // 3
 // console.log(true + true)   // 2
+
+
 
 // console.log(false == 0);            // true
 // console.log(false === 0);           // false
@@ -108,7 +111,7 @@ isNaN(1 + undefined) // true
 // **********************************
 // Metoda: charAt(index)
 
-// console.log('Krzysztof'.charAt(8))
+// console.log('Krzysztof'.charAt(3))
 
 // **********************************
 // Metoda: indexOf(str)

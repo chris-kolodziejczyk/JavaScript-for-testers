@@ -21,7 +21,7 @@ let promise2 = new Promise((resolve, reject) => {
 "Krzysiek" // error
 let a = "Krzysiek" // error
 
-promise2.then().then().then()
+promise2.then().then().then().catch()
 
 console.log(promise1);
 // expected output: [object Promise]

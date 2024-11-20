@@ -53,7 +53,8 @@ Wypisz ich typ w konsoli, a następnie dodaj do siebie tak, by wyszedł wynik 57
 
 let url = 'http://mojastrona.pl?text=Uczę się stringów w Javascript';
 
-// Jak wiesz, spacji i podobnych znaków nie może być w adresie strony.Za pomocą odpowiednich zmiennych, dodawania i wykorzystując odpowiednie metody uzyskaj prawidłowy odpowiednio zakodowany adres url.
+// Jak wiesz, spacji i podobnych znaków nie może być w adresie strony.Za pomocą odpowiednich zmiennych,
+// dodawania i wykorzystując odpowiednie metody uzyskaj prawidłowy odpowiednio zakodowany adres url.
 
 //  NOTE:   Zadanie 9
 

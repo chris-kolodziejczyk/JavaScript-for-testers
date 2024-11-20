@@ -1,6 +1,5 @@
 class BaseMethods {
 	constructor(browser) {
-		
 		this.browser = browser;
 	}
 
@@ -8,7 +7,7 @@ class BaseMethods {
 		url = this.browser.globals.baseUrl[0],
 		message = 'The url is correct'
 	) {
-		this.browser.url(url).assert.urlContains(url).Log(message);
+		this.browser.url(url).assert.urlContains(url);
 
 		return this;
 	}
@@ -34,6 +33,11 @@ class BaseMethods {
 		this.getTxtFromElement(selector, (text) => {
 			browser.assert.strictEqual(text.value, assertText);
 		});
+	}
+
+	checkUrlContain(url = 'demo.testarena.pl/') {
+		this.browser.expect.url().to.contain(url);
+		return this;
 	}
 }
 

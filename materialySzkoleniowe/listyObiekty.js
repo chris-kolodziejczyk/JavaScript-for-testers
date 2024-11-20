@@ -9,7 +9,10 @@ let osoby = [
 	'Marcin J',
 ];
 
-osoby[0] = 'Krzysztof Kołodziejczyk'
+osoby[1][0] = 'Krzysztof Kołodziejczyk'
+
+
+
 delete osoby[0]
 
 
@@ -77,9 +80,6 @@ delete osoby[0]
 // METODA: filter(callback)
 
 /*
-
-
-
 callback
 Funkcja sprawdzająca każdy element tablicy. Funkcja powinna zwrócić true, aby zatrzymać element lub false, aby odrzucić element.
 
