@@ -17,19 +17,19 @@ module.exports = {
 	src_folders: ['tests'],
 
 	// See https://nightwatchjs.org/guide/concepts/page-object-model.html
-	page_objects_path: ['nightwatch/page-objects'],
+	page_objects_path: ['page-objects'],
 
 	// See https://nightwatchjs.org/guide/extending-nightwatch/adding-custom-commands.html
-	custom_commands_path: ['nightwatch/custom-commands'],
+	custom_commands_path: ['commands'],
 
 	// See https://nightwatchjs.org/guide/extending-nightwatch/adding-custom-assertions.html
-	custom_assertions_path: ['nightwatch/assertions'],
+	custom_assertions_path: ['assertions'],
 
 	// See https://nightwatchjs.org/guide/extending-nightwatch/adding-plugins.html
 	plugins: ['@nightwatch/apitesting'],
 
 	// See https://nightwatchjs.org/guide/concepts/test-globals.html
-	globals_path: './nightwatch/configuration/globals.js',
+	globals_path: './configuration/globals.js',
 
 	webdriver: {},
 
