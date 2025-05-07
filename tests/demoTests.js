@@ -9,11 +9,11 @@ module.exports = {
 	},
 
 	'Demo login test to test arena': (browser) => {
-		browser.url('http://demo.testarena.pl/zaloguj');
+		browser.url(`${browser.baseUrl}/zaloguj`);
 
-		element('#email').sendKeys('administrator@testarena.pl');
-		element('#password').sendKeys('sumXQQ72$L');
-		element('#login').click();
+		browser.element.find('#email').sendKeys('administrator@testarena.pl');
+		browser.element.find('#password').sendKeys('sumXQQ72$L');
+		browser.element.find('#login').click();
 
 		browser.expect.url().to.contain('demo.testarena.pl/');
 	},

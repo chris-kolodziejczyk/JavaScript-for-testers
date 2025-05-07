@@ -5,9 +5,9 @@
 
   <testsuite name="demoTests" id="demoTests"
     errors="0" failures="0" hostname="" package="demoTests" skipped="0"
-    tests="1" time="2.582" timestamp="">
+    tests="1" time="1.617" timestamp="">
   
-    <testcase name="Demo login test to test arena" classname="demoTests" time="2.581" assertions="1">
+    <testcase name="Demo login test to test arena" classname="demoTests" time="1.616" assertions="1">
 
     
     </testcase>

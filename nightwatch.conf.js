@@ -26,7 +26,7 @@ module.exports = {
 	custom_assertions_path: ['nightwatch/assertions'],
 
 	// See https://nightwatchjs.org/guide/extending-nightwatch/adding-plugins.html
-	plugins: [],
+	plugins: ['@nightwatch/apitesting'],
 
 	// See https://nightwatchjs.org/guide/concepts/test-globals.html
 	globals_path: './nightwatch/configuration/globals.js',
@@ -36,6 +36,9 @@ module.exports = {
 	// test_workers: {
 	//   enabled: true
 	// },
+	'@nightwatch/apitesting': {
+		log_responses: true,
+	},
 
 	test_settings: {
 		default: {
@@ -59,6 +62,7 @@ module.exports = {
 		},
 
 		chrome: {
+			launch_url: 'http://demo.testarena.pl',
 			desiredCapabilities: {
 				browserName: 'chrome',
 				'goog:chromeOptions': {
@@ -107,6 +111,13 @@ module.exports = {
 				cli_args: [
 					// --verbose
 				],
+			},
+		},
+
+		apiTesting: {
+			start_session: false,
+			webdriver: {
+				start_process: false,
 			},
 		},
 	},

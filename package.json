@@ -12,6 +12,7 @@
   "author": "Krzysztof Kołodziejczyk",
   "license": "MIT",
   "devDependencies": {
+    "@nightwatch/apitesting": "^3.1.4",
     "nightwatch": "^3.12.1"
   }
 }
